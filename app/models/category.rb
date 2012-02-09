@@ -1,4 +1,4 @@
 class Category < ActiveRecord::Base
   has_one :note
-  validates :name, :presence => true
+  validates :title, :presence => true
 end
